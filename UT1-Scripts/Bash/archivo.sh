@@ -19,5 +19,5 @@ then
     echo "El directorio '$Directorio' no existe."
     exit 1
 fi
-NumArchivos=$(ls $Directorio | wc -l)
+NumArchivos=$(ls '$Directorio' | wc -l)
 echo "El número de archivos en el directorio '$Directorio' es: $NumArchivos" >> CuentaArchivos.txt
