@@ -6,4 +6,4 @@ Realizamos la creación del repositorio de ASO y la estructura interna del repos
 * UT1-Scripts
   * PoweShell
   * Bash
-* UT2-Active Directory
+* UT2-Active_Directory
