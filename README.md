@@ -2,4 +2,8 @@
 ## Samuel Sáez Noval
 
 #### 1.  UT1 - Scripts
-* Realizamos la creación del repositorio de ASO y la estructura interna del repositorio (Powershell y Bash)
+Realizamos la creación del repositorio de ASO y la estructura interna del repositorio (Powershell y Bash)
+* UT1-Scripts
+  * PoweShell
+  * Bash
+* UT2-Active Directory
