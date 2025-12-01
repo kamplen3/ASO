@@ -1,9 +1,8 @@
 # Administracion de Sistemas Operativos
 ## Samuel Sáez Noval
 
-#### 1.  UT1 - Scripts
-Realizamos la creación del repositorio de ASO y la estructura interna del repositorio (Powershell y Bash)
-* UT1-Scripts
+## UT1-Scripts
   * PoweShell
   * Bash
-* UT2-Active_Directory
+## UT2-Active_Directory
+ Actividades dominio
