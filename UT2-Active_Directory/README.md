@@ -1,48 +1,45 @@
-# 📘 UT2 – Active Directory
+# UT2 – Administración de Active Directory
 
-Este directorio contiene las actividades y ejercicios realizados en la **Unidad UT2** de la asignatura *Administración de Sistemas Operativos*.  
-El foco de esta unidad ha sido la **configuración y administración de Active Directory** en entornos Windows Server.
-
-## 🧠 ¿Qué se ha trabajado en la UT2?
-
-En la Unidad UT2 se han cubierto temas como:
-
-- **Instalación y configuración** de servicios de dominio (Active Directory).
-- Creación y gestión de **usuarios, grupos y unidades organizativas (OUs)**.
-- Implementación de **políticas de grupo (GPOs)** para estandarizar configuraciones.
-- Tareas de administración centralizada de recursos y permisos.
-
-## 🗂 Estructura del directorio
-
-´UT2-Active_Directory/
-```
-├── Documentacion/ # Archivos informativos y capturas
-│ ├── AD-setup.png # Ejemplo de topología configurada
-│ ├── GPO-ejemplos.pdf # Políticas de grupo aplicadas
-│ └── ...
-├── Scripts/ # Scripts de automatización de Active Directory
-│ ├── crear-usuarios.ps1 # Crea cuentas a partir de un CSV
-│ ├── aplicar-GPO.ps1 # Aplica una GPO a una OU especificada
-│ └── ...
-```
-
-## ✔ Actividades destacadas
-
-- **Creación de dominio** y configuración básica de servicios.
-- Uso de **PowerShell para administrar AD** (por ejemplo, crear usuarios masivamente desde CSV).
-- Gestión de **GPOs** para aplicar restricciones/ajustes de seguridad.
-- Documentación de cada paso con capturas y ejemplos de comandos.
-
-## 🛠 Ejemplos de scripts
-
-- `crear-usuarios.ps1`: automatiza la creación de cuentas de usuario.
-- `reset-passwords.ps1`: fuerza el cambio de contraseña de un conjunto de usuarios.
-- `backup-AD.ps1`: script de respaldo de la configuración de Active Directory.
-
-## 📌 Notas
-
-- Para ejecutar los scripts se requiere una **máquina con privilegios de administrador de dominio**.
-- La carpeta de documentación incluye ejemplos visuales de configuración y resultados.
+En esta unidad se trabaja con **Active Directory**, el servicio de directorio utilizado en entornos Windows Server para gestionar usuarios, equipos, permisos y políticas dentro de un dominio. El objetivo es comprender su funcionamiento y aprender a administrar un dominio de forma práctica.
 
 ---
 
+## 📌 Objetivos de la unidad
+
+- Comprender la estructura y funcionamiento de Active Directory.
+- Crear y administrar usuarios, grupos y unidades organizativas.
+- Configurar y gestionar un dominio.
+- Aplicar políticas de grupo (GPO).
+- Realizar actividades prácticas de administración del dominio.
+
+---
+
+## 📁 Estructura de la carpeta
+
+La carpeta `UT2-Active_Directory` contiene:
+
+### **1. Actividades del dominio**
+Ejercicios prácticos relacionados con:
+- Creación de un dominio.
+- Configuración de controladores de dominio.
+- Gestión de usuarios y grupos.
+- Organización mediante OU.
+- Aplicación de políticas de grupo.
+- Pruebas de inicio de sesión y permisos.
+
+---
+
+## 📝 Contenido trabajado
+
+Durante esta unidad se han realizado actividades como:
+- Instalación y configuración de Active Directory Domain Services.
+- Creación de estructuras organizativas.
+- Administración de permisos y roles.
+- Configuración de directivas de seguridad.
+- Resolución de problemas comunes en un dominio.
+
+---
+
+## ✅ Conclusión
+
+Esta unidad permite adquirir competencias esenciales para la administración de redes Windows en entornos profesionales, comprendiendo cómo se organiza y gestiona un dominio mediante Active Directory.
