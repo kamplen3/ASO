@@ -15,6 +15,7 @@ En la Unidad UT2 se han cubierto temas como:
 ## 🗂 Estructura del directorio
 
 ´UT2-Active_Directory/
+```
 ├── Documentacion/ # Archivos informativos y capturas
 │ ├── AD-setup.png # Ejemplo de topología configurada
 │ ├── GPO-ejemplos.pdf # Políticas de grupo aplicadas
@@ -22,7 +23,8 @@ En la Unidad UT2 se han cubierto temas como:
 ├── Scripts/ # Scripts de automatización de Active Directory
 │ ├── crear-usuarios.ps1 # Crea cuentas a partir de un CSV
 │ ├── aplicar-GPO.ps1 # Aplica una GPO a una OU especificada
-│ └── ...´
+│ └── ...
+```
 
 ## ✔ Actividades destacadas
 
